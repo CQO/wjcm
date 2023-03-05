@@ -1,8 +1,8 @@
 <template lang="pug">
 .page-3
   img.so.so-0(src="@|9.jpg|")
-  img.so.so-1(src="@|16.png|")
-  img.so.so-2(src="@|33.png|")
+  img.so.so-1(src="@|16.png|" go="page4")
+  img.so.so-2(src="@|33.png|" go="page5")
   img.so.so-3(src="@|114.png|"  go="page2")
 
 </template>

@@ -1,0 +1,123 @@
+<template lang="pug">
+.page5
+  img.so.so-0(src="@|15.jpg|")
+  img.so.so-1(src="@|469.png|")
+  img.so.so-2(src="@|467.png|")
+  img.so.so-3(src="@|148.png|" go="page3")
+  img.title-item(src="@|title1.png|")
+  .scrro-box
+    .scrro-item
+      .index-bar 1/8
+      .image-box
+        img(src="@|l9.JPG|")
+        span 2011年2月16日，支队新训大队在长沙橘子洲头举行宣誓仪式
+    .scrro-item
+      .index-bar 2/8
+      .image-box
+        img(src="@|l10.JPG|")
+        span 2013年5月27日，支队原警营之声（现军营之声）广播站正式开播
+    .scrro-item
+      .index-bar 3/8
+      .image-box
+        img(src="@|l11.JPG|")
+        span 2012年7月17日，支队组织忠诚卫士歌曲大家唱歌咏比赛
+    .scrro-item
+      .index-bar 4/8
+      .image-box
+        img(src="@|l12.JPG|")
+        span 2013年7月，支队给任弼时纪念馆授牌作为支队政治教育基地
+    .scrro-item
+      .index-bar 5/8
+      .image-box
+        img(src="@|l13.JPG|")
+        span 2018年5月11日，支队组织“传承红色基因，担当强军重任”主题教育第一专题要义解读
+    .scrro-item
+      .index-bar 6/8
+      .image-box
+        img(src="@|l14.JPG|")
+        span 2019年8月16日，支队组织官兵到陈树湘纪念馆参观，学习老一辈革命家奉献精神
+    .scrro-item
+      .index-bar 7/8
+      .image-box
+        img(src="@|l15.JPG|")
+        span 5月22日支队邀请抗美援朝老兵许辅志（原中元山英雄连政治指导员）为官兵上党史军史教育课，图为许辅志与官兵合影留念
+    .scrro-item
+      .index-bar 8/8
+      .image-box
+        img(src="@|l16.JPG|")
+        span 2021年8月30日，支队组织开展退伍季“红色湖湘铸忠诚“系列活动，图为优秀士兵理论骨干围绕“奋斗”作交流发言
+</template>
+<script>
+module.exports = {
+}
+</script>
+<style lang="less">
+.so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+.so-1 {
+  left: 613px;
+  top: 1665px;
+  z-index: 4;
+  display: none;
+}
+.so-2 {
+  left: 826px;
+  top: 1665px;
+  z-index: 3;
+  display: none;
+}
+.so-3 {
+  left: 38px;
+  top: 1744px;
+  z-index: 4;
+}
+.title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+}
+.image-box {
+  position: relative;
+}
+.image-box img {
+  display: block;
+  width: 100%;
+}
+.image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+.scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
+</style>

@@ -1,0 +1,121 @@
+<template lang="pug">
+.page4
+  img.so.so-0(src="@|329.jpg|")
+  img.so.so-1(src="@|604.png|" go="page3")
+  img.so.so-2(src="@|587.png|" style="display:none;")
+  img.so.so-3(src="@|591.png|" style="display:none;")
+  .scrro-box
+    .scrro-item
+      .index-bar 1/8
+      .image-box
+        img(src="@|l41.JPG|")
+        span 2016年5月24日，支队参加“卫士-16”系列演习
+    .scrro-item
+      .index-bar 2/8
+      .image-box
+        img(src="@|42.JPG|")
+        span 2018年7月3日，支队组织全员全装战备拉动演练
+    .scrro-item
+      .index-bar 3/8
+      .image-box
+        img(src="@|43.JPG|")
+        span 2018年7月7日至9日，支队圆满完成中央军委不打招呼战备拉动任务 (3)
+    .scrro-item
+      .index-bar 4/8
+      .image-box
+        img(src="@|44.JPG|")
+        span 2018年7月7日至9日，支队圆满完成中央军委不打招呼战备拉动任务
+    .scrro-item
+      .index-bar 5/8
+      .image-box
+        img(src="@|45.JPG|")
+        span 2018年7月7日至9日，支队圆满完成中央军委不打招呼战备拉动任务 (2)
+    .scrro-item
+      .index-bar 6/8
+      .image-box
+        img(src="@|46.JPG|")
+        span 2019年6月23日，支队参加军地联合卫生演练
+    .scrro-item
+      .index-bar 7/8
+      .image-box
+        img(src="@|47.JPG|")
+        span 2020年1月20日参加春节前战备演练拉动
+    .scrro-item
+      .index-bar 8/8
+      .image-box
+        img(src="@|48.JPG|")
+        span 2020年6月18日，支队参加湖南省军地抗洪抢险应急联合演练 (2)
+</template>
+<script>
+module.exports = {
+}
+</script>
+<style lang="less">
+.so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-1 {
+  left: 65px;
+  top: 1678px;
+  z-index: 2;
+}
+.so-2 {
+  left: 616px;
+  top: 1715px;
+  z-index: 3;
+}
+.so-3 {
+  left: 850px;
+  top: 1715px;
+  z-index: 4;
+}
+.title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+  z-index: 99;
+}
+.image-box {
+  position: relative;
+}
+.image-box img {
+  display: block;
+  width: 100%;
+}
+.image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+.scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
+</style>

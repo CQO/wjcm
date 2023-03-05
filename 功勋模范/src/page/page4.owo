@@ -1,0 +1,73 @@
+<template lang="pug">
+.page4
+  img.so.so-0(src="@|34.jpg|")
+  img.so.so-1(src="@|199.png|" o-tap="swiperPrev()")
+  img.so.so-2(src="@|198.png|" o-tap="swiperNext()")
+  img.so.so-3(src="@|79.png|" go="page1")
+  .swiper-container
+    .swiper-wrapper
+      .swiper-slide
+        img(src="@|191.png|")
+      .swiper-slide
+        img(src="@|272.png|")
+      .swiper-slide
+        img(src="@|354.png|")
+</template>
+<script>
+module.exports = {
+  "created": function created() {
+      var cont = this.$el.getElementsByClassName('swiper-container')[0];
+      this.data.swiper = new Swiper(cont, {
+        "loop": true,
+        "autoplay": 3000,
+      });
+    },
+    "data": {
+      "swiper": null
+    },
+    "swiperNext": function swiperNext() {
+      // console.log('swiperNext')
+      this.data.swiper.swipeNext();
+    },
+    "swiperPrev": function swiperPrev() {
+      // console.log('swiperPrev')
+      this.data.swiper.swipePrev();
+    }
+}
+</script>
+<style lang="less">
+.so {
+  position: absolute;
+}
+.so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-1 {
+  left: 127px;
+  top: 491px;
+  z-index: 2;
+}
+.so-2 {
+  left: 1721px;
+  top: 491px;
+  z-index: 3;
+}
+.so-3 {
+  left: 893px;
+  top: 952px;
+  z-index: 4;
+}
+.so-4 {
+  z-index: 5;
+}
+.swiper-container {
+  width: 1290px;
+  height: 640px;
+  position: absolute;
+  left: 316px;
+  top: 238px;
+  z-index: 5;
+}
+</style>

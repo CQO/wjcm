@@ -1,0 +1,34 @@
+<template lang="pug">
+.page-1
+  img.so.so-0(src="@|84.png|" go="page2")
+  img.so.so-1(src="@|86.png|")
+  img.so.so-2(src="@|103.jpg|")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.so-0 {
+  left: 325px;
+  top: 1568px;
+  z-index: 2;
+}
+.so-1 {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-2 {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+</style>

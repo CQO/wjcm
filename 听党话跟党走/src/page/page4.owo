@@ -1,0 +1,123 @@
+<template lang="pug">
+.page4
+  img.so.so-0(src="@|15.jpg|")
+  img.so.so-1(src="@|469.png|")
+  img.so.so-2(src="@|467.png|")
+  img.so.so-3(src="@|148.png|" go="page3")
+  img.title-item(src="@|title2.png|")
+  .scrro-box
+    .scrro-item
+      .index-bar 1/8
+      .image-box
+        img(src="@|l1.JPG|")
+        span 2016年6月22日，支队组织2016年度入党积极分子和士官支委培训调色2
+    .scrro-item
+      .index-bar 2/8
+      .image-box
+        img(src="@|l2.JPG|")
+        span 2016年7月17日，支队组织全体党员和党员发展对象在抗洪前线进行宣誓仪式
+    .scrro-item
+      .index-bar 3/8
+      .image-box
+        img(src="@|l3.JPG|")
+        span 2017年12月31日，直属支队正式更名为机动支队
+    .scrro-item
+      .index-bar 4/8
+      .image-box
+        img(src="@|l4.JPG|")
+        span 2018年5月30日，支队热烈庆祝机动支队第一届党代会胜利召开合影留念（调色1）
+    .scrro-item
+      .index-bar 5/8
+      .image-box
+        img(src="@|l5.JPG|")
+        span 2019年12月5日，支队组织召开“不忘初心、牢记使命”专题民主生活会
+    .scrro-item
+      .index-bar 6/8
+      .image-box
+        img(src="@|l6.JPG|")
+        span 2019年5月9日，支队组织开展《纲要》集训成果演示，图为党员大会演示
+    .scrro-item
+      .index-bar 7/8
+      .image-box
+        img(src="@|l7.JPG|")
+        span 2021年1月18日，机动支队传达学习武警部队、总队党委四届四次（扩大）会议精神
+    .scrro-item
+      .index-bar 8/8
+      .image-box
+        img(src="@|l8.JPG|")
+        span 2021年3月4日，“红肩章”理论教员为战士们讲党史
+</template>
+<script>
+module.exports = {
+}
+</script>
+<style lang="less">
+.so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+.so-1 {
+  left: 613px;
+  top: 1665px;
+  z-index: 4;
+  display: none;
+}
+.so-2 {
+  left: 826px;
+  top: 1665px;
+  z-index: 3;
+  display: none;
+}
+.so-3 {
+  left: 38px;
+  top: 1744px;
+  z-index: 4;
+}
+.title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+}
+.image-box {
+  position: relative;
+}
+.image-box img {
+  display: block;
+  width: 100%;
+}
+.image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+.scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
+</style>

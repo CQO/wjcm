@@ -1,0 +1,121 @@
+<template lang="pug">
+.page5
+  img.so.so-0(src="@|329.jpg|")
+  img.so.so-1(src="@|604.png|" go="page3")
+  img.so.so-2(src="@|587.png|" style="display:none;")
+  img.so.so-3(src="@|591.png|" style="display:none;")
+  .scrro-box
+    .scrro-item
+      .index-bar 1/8
+      .image-box
+        img(src="@|33.JPG|")
+        span 2014年9月18日，支队组织开展交通工具反劫持训练
+    .scrro-item
+      .index-bar 2/8
+      .image-box
+        img(src="@|34.JPG|")
+        span 2015年12月12日，支队官兵进行托举圆木训练，锤炼极限体能
+    .scrro-item
+      .index-bar 3/8
+      .image-box
+        img(src="@|35.JPG|")
+        span 2017年1月16日，支队联合原总队直升机大队组织进行直升机融合训练
+    .scrro-item
+      .index-bar 4/8
+      .image-box
+        img(src="@|36.JPG|")
+        span 2018年6月15日，支队组织特战队员开展水中摔擒极限练兵活动
+    .scrro-item
+      .index-bar 5/8
+      .image-box
+        img(src="@|37.JPG|")
+        span 2018年6月28日，支队兵种专业分队进行仰角喷火训练
+    .scrro-item
+      .index-bar 6/8
+      .image-box
+        img(src="@|38.JPG|")
+        span 2019年3月24日，支队组织搏击实战对抗比赛
+    .scrro-item
+      .index-bar 7/8
+      .image-box
+        img(src="@|39.JPG|")
+        span 2019年9月12日，支队官兵进行火箭筒发射训练
+    .scrro-item
+      .index-bar 8/8
+      .image-box
+        img(src="@|40.JPG|")
+        span 2021年9月23日，支队官兵进行模拟防低空侦察训练
+</template>
+<script>
+module.exports = {
+}
+</script>
+<style lang="less">
+.so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+.so-1 {
+  left: 65px;
+  top: 1678px;
+  z-index: 2;
+}
+.so-2 {
+  left: 616px;
+  top: 1715px;
+  z-index: 3;
+}
+.so-3 {
+  left: 850px;
+  top: 1715px;
+  z-index: 4;
+}
+.title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+  z-index: 99;
+}
+.image-box {
+  position: relative;
+}
+.image-box img {
+  display: block;
+  width: 100%;
+}
+.image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+.scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
+</style>

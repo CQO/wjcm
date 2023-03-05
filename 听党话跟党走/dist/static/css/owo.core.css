@@ -119,4 +119,160 @@ li {
   top: 1756px;
   z-index: 6;
 }
+.page4 .so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.page4 .so-1 {
+  left: 613px;
+  top: 1665px;
+  z-index: 4;
+  display: none;
+}
+
+.page4 .so-2 {
+  left: 826px;
+  top: 1665px;
+  z-index: 3;
+  display: none;
+}
+
+.page4 .so-3 {
+  left: 38px;
+  top: 1744px;
+  z-index: 4;
+}
+
+.page4 .title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.page4 .scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+}
+
+.page4 .image-box {
+  position: relative;
+}
+
+.page4 .image-box img {
+  display: block;
+  width: 100%;
+}
+
+.page4 .image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+
+.page4 .scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.page4 .index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
+.page5 .so-0 {
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.page5 .so-1 {
+  left: 613px;
+  top: 1665px;
+  z-index: 4;
+  display: none;
+}
+
+.page5 .so-2 {
+  left: 826px;
+  top: 1665px;
+  z-index: 3;
+  display: none;
+}
+
+.page5 .so-3 {
+  left: 38px;
+  top: 1744px;
+  z-index: 4;
+}
+
+.page5 .title-item {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.page5 .scrro-box {
+  position: absolute;
+  width: 900px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 1380px;
+  top: 250px;
+}
+
+.page5 .image-box {
+  position: relative;
+}
+
+.page5 .image-box img {
+  display: block;
+  width: 100%;
+}
+
+.page5 .image-box span {
+  position: absolute;
+  bottom: 0;
+  font-size: 31px;
+  width: calc(100% - 20px);
+  line-height: 45px;
+  background-color: #9d0f18;
+  color: white;
+  padding: 12px 10px;
+  display: block;
+}
+
+.page5 .scrro-item {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.page5 .index-bar {
+  font-size: 50px;
+  line-height: 80px;
+  color: white;
+  text-align: right;
+}
 
